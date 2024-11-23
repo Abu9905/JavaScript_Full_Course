@@ -41,8 +41,27 @@ function sayHello(){
 }
 // sayHello()
 
-console.log(typeof sayHello);
-console.log(typeof bigNum);
-console.log(typeof userName);
-console.log(typeof outSideTemp);
-console.log(typeof scoreValue);
+// console.log(typeof sayHello);
+// console.log(typeof bigNum);
+// console.log(typeof userName);
+// console.log(typeof outSideTemp);
+// console.log(typeof scoreValue);
+
+// =============. stack , Heap Memory .=================//
+// stack(Primitive) , Heap(Non-Primitive)
+
+let myYoutubeName = 'abu.com';
+
+let anotherName = myYoutubeName
+anotherName = 'web3.com';
+
+console.log(anotherName);
+console.log(myYoutubeName);
+
+let userOne = {
+    email : 'abu@gmail.com'
+}
+let userTwo = userOne;
+userTwo.email = 'abc@gmail.com'
+console.log(userOne);
+console.log(userTwo);
