@@ -6,7 +6,7 @@
     // + 8); // code readability should be high.
 //  console.log("hello")
 
-// ==== dataTypes ======//
+// ========= dataTypes ========//
 
 // number => 2 to power 53
 // bigInt => big number store
@@ -25,6 +25,6 @@ let isLoggedIn = false;
 let state ; // let state = undefined
 let temp = null;
 
-console.log(typeof state)
+// console.log(typeof state)
 
 
