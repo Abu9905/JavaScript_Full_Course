@@ -24,4 +24,4 @@ function returnSecondValue(getArray){
     return getArray[0]
 }
 // console.log(returnSecondValue(myNewArray));
-console.log(returnSecondValue([200 , 400 , 500 , 1000]));
+// console.log(returnSecondValue([200 , 400 , 500 , 1000]));
