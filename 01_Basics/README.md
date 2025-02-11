@@ -52,4 +52,48 @@
             console.log(a);
  -->
 
- 
+
+<!-- ============ Datatype and ECMAScript ============ -->
+ <!-- 
+ 1.) What is a datatype ?
+  -> Data types are categories of data that tell a computer how to store, use, and process information
+
+  There are mainly two types of datatypes:-
+     1.) Primitive Datatypes:-
+         -> number - 2 to 53
+         -> string - " "
+         -> boolean - true or false
+         -> null - standalone value
+         -> undefined
+         -> symbol - unique
+         -> bigint -  store big number
+      example:-
+            let age = 18;
+            let name = "abu";
+            let isLoggedIn = true;
+            let state =  null;
+            let city;
+            let mySym = Symbol("key1");
+            let bigNum = BigInt(23)
+
+     2.) Reference Datatypes:-
+         -> object
+         -> function
+         -> array
+      example:-   
+           const obj = {
+                name : "Abu",
+                age : 18,
+                city : "Dhaka"
+            }
+
+            function printHello(){
+                  console.log("Hello World");
+            }
+
+            const userName = ["abu", "shama", "sakib"]
+
+           console.log(typeof name);
+      Note:- null and undefined are primitive datatype.
+      but typeof of null is object and typeof of undefined is undefined.
+  -->
