@@ -93,7 +93,11 @@
 
             const userName = ["abu", "shama", "sakib"]
 
-           console.log(typeof name);
+           console.log(typeof name); 
+
       Note:- null and undefined are primitive datatype.
       but typeof of null is object and typeof of undefined is undefined.
+      Note :- typeof:- it is checking the datatype primitive or reference datatype.
   -->
+
+  <!-- ======= Datatype Conversion confusion ======= -->
