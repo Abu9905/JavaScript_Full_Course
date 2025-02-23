@@ -174,5 +174,5 @@ let age;
 // (age > 18) ? console.log("You can Vote!!") : console.log("You can't Vote!!");
 
 const iceTeaPrice = 100;
-(iceTeaPrice >= 100) ? console.log("You can buy Ice Tea!!") : console.log("You can't buy Ice Tea!!");
+// (iceTeaPrice >= 100) ? console.log("You can buy Ice Tea!!") : console.log("You can't buy Ice Tea!!");
 
