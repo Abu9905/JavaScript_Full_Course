@@ -56,7 +56,7 @@ while(j < myArrayOne.length){
 
 let score = 1;
 do{
-    console.log(score);
-    score++;
+    // console.log(score);
+    // score++;
 
 }while(score <= 5);
